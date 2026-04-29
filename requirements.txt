@@ -1,0 +1,20 @@
+# Core framework
+Django>=5.0,<6.0
+
+# SciWrite engine (your research pipeline dependency)
+git+https://github.com/authentic-research-partners/sciwrite-lint.git
+
+# Environment handling (recommended for team projects)
+python-dotenv>=1.0.0
+
+# API / data handling (useful for structured outputs)
+djangorestframework>=3.15.0
+
+# File handling utilities (PDF uploads etc.)
+pypdf>=4.0.0
+
+# Optional but very useful for development/debugging
+ipython>=8.0.0
+
+# CORS support (if you later add frontend like React)
+django-cors-headers>=4.0.0

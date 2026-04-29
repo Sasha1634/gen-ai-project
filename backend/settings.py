@@ -49,7 +49,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'GenAIProject.urls'
+ROOT_URLCONF = 'backend.urls'
 
 TEMPLATES = [
     {
